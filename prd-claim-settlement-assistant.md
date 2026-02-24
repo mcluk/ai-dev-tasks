@@ -53,7 +53,7 @@ The MVP focuses exclusively on deductions as the claim source. Other claim sourc
 
 1. The system must inspect the following fields on each incoming claim to identify resolution clues:
    - **Customer Reason** — free-text or coded reason provided by the customer.
-   - **Customer Reference** — reference number or identifier provided by the customer (e.g., a program code, credit memo number, or PO number).
+   - **Customer Reference** — reference number or identifier provided by the customer (e.g., a program code, credit memo number).
    - **Receipt Application Descriptive Flexfields** — all descriptive flexfield segments attached to the receipt application record must be inspected. The set of descriptive flexfield segments is consistent across all customers, so no customer-specific configuration is required for this step.
 2. The system must extract any program names, program codes, or credit memo numbers found across all inspected fields and treat them as candidate inputs for resolution.
 3. If no usable clues are found in any of these fields, the system must log this outcome and skip autonomous resolution, routing the claim for analyst review.
