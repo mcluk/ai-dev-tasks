@@ -7,8 +7,8 @@ To guide an AI assistant in creating a detailed, step-by-step task list in Markd
 ## Output
 
 - **Format:** Markdown (`.md`)
-- **Location:** `/tasks/`
-- **Filename:** `tasks-[feature-name].md` (e.g., `tasks-user-profile-editing.md`)
+- **Location:** `/ai-dev-tasks/`
+- **Filename:** `tasks-claim-settlement-assistant.md` (e.g., `tasks-user-profile-editing.md`)
 
 ## Process
 
